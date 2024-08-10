@@ -38,8 +38,8 @@ const testProps: QuestOneProps = {
 
 const resultQuestOne = findMatchStrings(testProps);
 
-if (result) {
-  console.log("String yang cocok ditemukan pada indeks:", result);
+if (resultQuestOne) {
+  console.log("String yang cocok ditemukan pada indeks:", resultQuestOne);
 } else {
   console.log("Tidak ada string yang cocok.");
 }
